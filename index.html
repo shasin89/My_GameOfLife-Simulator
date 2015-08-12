@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Of Life Simulator - Processing.js</title>
+       <script src="processing.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  <body>
+    <h1>Game Of Life Simulator</h1>
+      <p>This is my version of Game of Life Simulator.  The codes are written in processing IDE.</p>
+        <p>Click on the canvas and play the game:</p>
+         <p>The rules for John Conway's Game of Life are:
+
+      <p>For a space that is 'populated':</p>
+
+      <li>Each cell with one or no neighbors dies, as if by loneliness.</li>
+      <li>Each cell with four or more neighbors dies, as if by overpopulation.</li>
+      <li>Each cell with two or three neighbors survives.</li>
+    
+      <p>For a space that is 'empty' or 'unpopulated':</p>
+
+    <li>Each cell with three neighbors becomes populated.</li>
+    
+    
+      <p>Source: <a href="http://www.bitstorm.org/gameoflife/">http://www.bitstorm.org/gameoflife/</a></p>
+
+<p>When the program starts the grids are empty. You can either draw your cells with the 
+    mouse or randomly generate cells by pressing the key q,w,e,r. Each key generate different pattern. Click the mouse to activate a cell.</p>
+
+      <p>Once you draw or randomly generate cells, press the space bar to start/run the game. 
+          Press the space bar again to toggle the run mode.</p>
+
+      <p>Press 'c' to clear the cells and draw or generate random cells.</p>
+
+      <p>During the pause mode or the run mode, you can draw a cell by clicking on the grid.</p>
+</p>
+    
+    <p>Keys:</p>
+    <li> q :    generate a line of 10 cells </li>
+    <li> w :    generate glider cells </li>
+    <li> e :    generate small exploder cells</li>
+    <li> r :    generate random cells </li>
+    <li> space: toggle pause mode </li>
+    <li> c :    pause the game and clear the grids</li>
+    
+   <canvas data-processing-sources="GameOfLife.pde"></canvas>
+ </body>
+</html>
+ 
