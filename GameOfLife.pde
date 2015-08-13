@@ -211,7 +211,6 @@ void runGame(boolean pause){
                                                                              //Therefore, I draw additional space (h=+120) -> 120/(SizeOfCells) = 15. 
                                                                              //To make sure the mouse is not out of boundry,we put -16. 
   
-        // Check against cells in 
         if (copycells[mouse_x][mouse_y]==1) {   //kill the cell is alive
           cells[mouse_x][mouse_y]=0; 
           fill(dead); 
