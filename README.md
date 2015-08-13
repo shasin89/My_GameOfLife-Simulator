@@ -20,16 +20,15 @@ Method:
 
 2.Make two grids, one as a backup
 
-3.Make visit to each cells and calculate the number of alive neighbours:
+3.Make visit to each cells of the backup grid and calculate the number of alive neighbours:
 
 	- Max of 3 neighbours for the cells that located at the corner of the grid
 	- Max of 5 neighbours for the cells that (other than corner cells) located at the edge of the grid
 	- Max of 8 neighbours for the rest of the cells
 	
-4.If the number of neighbours of an active cell is below than 2 and more than 3, make the cell inactive (cell dies) 
+4.If the number of neighbours of an active cell is below than 2 and more than 3, make the cell inactive (in original grid) 
 
-5.If the number of neighbours of an inactive cell is equal to three, make cell to active
-
+5.If the number of neighbours of an inactive cell is equal to three, make cell to active (in original grid)
 
 The simulator runs once you press space bar and if you wish to  disturb the cells, click on the cells to kill or make a cell to see the resulting reaction. 
 
