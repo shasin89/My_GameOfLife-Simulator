@@ -11,6 +11,7 @@ Let’s check the rule of John Conway’s original Game of Life.
      	Each cell with two or three neighbours survives
     
 2.For a space that is 'empty' or ‘unpopulated':
+
     	Each cell with three neighbours becomes populated.
 
 
