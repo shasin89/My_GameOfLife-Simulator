@@ -344,7 +344,7 @@ void manualCells(boolean pause){
         mouse_y = constrain(mouse_y, 0, height/SizeOfCells-16);
 
 
-      if (copycells[mouse_x][mouse_y]==1) {   //kill the cell is alive
+      if (copycells[mouse_x][mouse_y]==1) {   //kill the cell if alive
         cells[mouse_x][mouse_y]=0; 
         fill(dead); 
       }
@@ -354,7 +354,7 @@ void manualCells(boolean pause){
       }
     } 
     
-    else if (pause && !mousePressed) {                 //copy the cells once mousepressed is released 
+    else if (pause && !mousePressed) {      //copy the cells once mousepressed is released 
       for (int x=0; x<num_column; x++) {
         for (int y=0; y<num_row; y++) {
           copycells[x][y] = cells[x][y];
