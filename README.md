@@ -8,7 +8,7 @@ Let’s check the rule of John Conway’s original Game of Life.
 
       	Each cell with one or no neighbours dies, as if by loneliness.
       	Each cell with four or more neighbours dies, as if by overpopulation.
-     	  Each cell with two or three neighbours survives
+     	Each cell with two or three neighbours survives
     
 2.For a space that is 'empty' or ‘unpopulated':
     	Each cell with three neighbours becomes populated.
@@ -23,9 +23,9 @@ Method:
 3.Make visit to each cells and calculate the number of alive neighbours:
 
 	- Max of 3 neighbours for the cells that located at the corner of the grid
-	- Max of 5 neighbours for the cells that (other than corner cells) located at the edge of the grid.
+	- Max of 5 neighbours for the cells that (other than corner cells) located at the edge of the grid
 	- Max of 8 neighbours for the rest of the cells
-	- 
+	
 4.If the number of neighbours of an active cell is below than 2 and more than 3, make the cell inactive (cell dies) 
 
 5.If the number of neighbours of an inactive cell is equal to three, make cell to active
